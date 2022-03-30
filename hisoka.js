@@ -805,18 +805,18 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                 anu = `
                 *Info Script*     
 
-📚 *Base : Dika Ardnt* 
+ *Base : Dika Ardnt* 
 
 https://github.com/DikaArdnt/Hisoka-Morou
 
 
-🌱 Recode By : Sanzy YT
+ Recode By : Ahmad
 
-https://youtube.com/c/SanzyYT`
+https://github.com/Abrazax56`
                 let button = [{
                                 urlButton: {
                                     displayText: 'Youtube Creator',
-                                    url: 'https://youtube.com/c/SanzyYT'
+                                    url: 'https://youtube.com/channel/UCArq-G1LeOhhwttBxygniPw'
                                 }
                             }]
                 hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, button)
@@ -872,16 +872,16 @@ var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./lib/hisoka.j
                         "productId": "7091718154232528",
                         "title": `_*MENU *_`,
                         "description": '┏━━━━━━━━━━━━━━⬣\n┃        〔 SEWA BOT  〕\n┃ \n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃   ⬣ SEWA + PREM ⬣\n┃⬡ 1 MINGGU : 8K\n┃⬡ 1 BULAN : 18K\n┃⬡ PERMANEN : 25K\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃       〔 KELEBIHAN BOT 〕\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃⬡ ON 24 JAM\n┃⬡ RUN DI RDP\n┃⬡ ANTI DELAY \n┃⬡ ANTILINK\n┃⬡ WELCOME IMAGE\n┃⬡ LEFT\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃           ⬣〔  SISTEM 〕⬣\n┃⬡ TF - SEND BUKTI - BOT JOIN\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃    *PAYMENT* :\n┃ GOPAY\n┃ DANA\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n\n_Bukan Bot_ *_Wibusoft_*👍🏻',
-                        "footerText": `© Sazy YT`,
+                        "footerText": `© Medika`,
                         "currencyCode": "IDR",
                         "priceAmount1000": "100000000000000000",
                         "productImageCount": 1,
                         "firstImageId": 1,
                         "salePriceAmount1000": "1000",
-                        "retailerId": `Sanzy`,
-                        "url": "wa.me/6281276698054"
+                        "retailerId": `Ahmad`,
+                        "url": "wa.me/62882160181654"
                     },
-                    "businessOwnerJid": "6281276698054@s.whatsapp.net",
+                    "businessOwnerJid": "6288216018165@s.whatsapp.net",
                 }
                 }), { userJid: m.chat, quoted: m })
                 hisoka.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
